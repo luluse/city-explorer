@@ -4,7 +4,21 @@
 
 Estimate of time needed to complete: 30min
 
+Start time: 1:30pm
+
+Finish time: 2:10pm
+
 Actual time needed to complete: 40 min
+
+### Feature 2: Locations- As a user of City Explorer, I want to enter the name of a location so that I can see data about the area of interest to me.
+
+Estimate of time needed to complete: 1:30
+
+Start time: 2:45pm
+
+Finish time: 
+
+Actual time needed to complete: 
 
 # Project Name
 
@@ -13,6 +27,8 @@ Actual time needed to complete: 40 min
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+
+ As a user of City Explorer, I want to enter the name of a location so that I can see data about the area of interest to me.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
