@@ -22,7 +22,7 @@ app.get('/location', (request,response) => {
     response.status(200).send(returnTown);
   } catch(err){
     console.log('ERROR', err);
-    response.status(500).send('sorry, there is an error')
+    response.status(500).send('sorry, there is an error on location');
   }
 })
 
@@ -31,6 +31,28 @@ function Location(searchQuery, obj){
   this.formatted_query = obj.display_name;
   this.latitude = obj.lat;
   this.longitude = obj.lon;
+}
+
+app.get('/weather', (request,response) =>{
+  try{
+    let weatherHeightDays = [];
+
+    let weatherData = require('./data/weather.json');
+
+    weatherData.data.forEach(value =>{
+      let returnWeather = new Weather(value);
+      weatherHeightDays.push(returnWeather);
+    })
+    response.status(200).send(weatherHeightDays);
+
+  }catch(err){
+    response.status(500).send('sorry, there is an error on weather');
+  }
+})
+
+function Weather(obj){
+  this.forecast = obj.weather.description;
+  this.time = obj.valid_date;
 }
 
 app.get('*', (request, response) =>{

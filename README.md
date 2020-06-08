@@ -1,6 +1,6 @@
 # city-explorer
 
-### Feature 1: repository set up
+### Feature 1. repository set up
 
 Estimate of time needed to complete: 30min
 
@@ -10,15 +10,25 @@ Finish time: 2:10pm
 
 Actual time needed to complete: 40 min
 
-### Feature 2: Locations- As a user of City Explorer, I want to enter the name of a location so that I can see data about the area of interest to me.
+### Feature 2. Locations- As a user of City Explorer, I want to enter the name of a location so that I can see data about the area of interest to me.
 
 Estimate of time needed to complete: 1:30
 
 Start time: 2:45pm
 
-Finish time: 
+Finish time: 3:42pm
 
-Actual time needed to complete: 
+Actual time needed to complete: 1hours
+
+### Feature 3. Weather: As a user, I want to request current weather information so that I can learn more about the typical weather patterns in the location I had entered.
+
+Estimate of time needed to complete: 1:30
+
+Start time: 3:45pm
+
+Finish time: 4:40
+
+Actual time needed to complete: 55min
 
 # Project Name
 
