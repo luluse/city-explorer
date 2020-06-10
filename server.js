@@ -7,9 +7,9 @@ const superagent = require('superagent');
 require('dotenv').config();
 
 const cors = require('cors');
-app.use(cors());
 
 const PORT = process.env.PORT || 3001;
+app.use(cors());
 
 // loction data
 app.get('/location', (request,response) => {
