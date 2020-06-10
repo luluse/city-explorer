@@ -44,45 +44,47 @@ Actual time needed to complete: 15min
 
 ## Lab07
 
+![Whiteboard lab07](img/lab07.png)
+
 #### Feature 1. Data formatting: As a user, I want the application to provide properly formatted data so that I can view similar data for any location I choose.
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1hour
 
-Start time: 
+Start time: 1:30
 
-Finish time: 
+Finish time: 3:30
 
-Actual time needed to complete: 
+Actual time needed to complete: 3hours
 
 #### Feature 2. Locations: As a user, I want to enter the name of a location so that I do not need to look up the latitude and longitude every time I learn about a new location.
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 30 min
 
-Start time: 
+Start time: 3:30
 
-Finish time: 
+Finish time: 3:50
 
-Actual time needed to complete: 
+Actual time needed to complete: 20min
 
 #### Feature 3. Weather: As a user, I want to request current weather information at any location, so that I can learn more about the typical weather patterns in the area of interest.
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 30 min
 
-Start time: 
+Start time: 3:50
 
-Finish time: 
+Finish time: 4:20
 
-Actual time needed to complete: 
+Actual time needed to complete: 30min
 
 #### Feature 4. Trails: As a user, I want to request information about trails and campgrounds in the area so that users can explore the location.
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1hour
 
-Start time:
+Start time: 4:20
 
-Finish time: 
+Finish time: 5:15
 
-Actual time needed to complete: 
+Actual time needed to complete: 1 hour
 
 # Project Name
 
@@ -112,4 +114,5 @@ JavaScript
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application.-->
-I worked with Courtney and Marta.
+I worked with Courtney and Marta on Lab 06
+I worked with Chirs and Michael on Lab 07
