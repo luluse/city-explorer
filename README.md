@@ -86,6 +86,51 @@ Finish time: 5:15
 
 Actual time needed to complete: 1 hour
 
+## Lab08
+
+![Whiteboard lab08](img/lab08.png)
+
+#### Feature 1. Database: As a user, I want the application to perform quickly, so that I can search for locations frequently and reliably.
+
+Estimate of time needed to complete: 1:30
+
+Start time: 1:50
+
+Finish time: 2:50
+
+Actual time needed to complete: 1 hour
+
+#### Feature 2. Server: As a user, I want the application to perform quickly so that I can search for locations frequently and reliably.
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+
+#### Feature 3. Deploy: As a user, I want the application to perform quickly so that I can search for locations frequently and reliably.
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+
+<!-- #### Feature 4. 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:  -->
+
+
 # Project Name
 
 **Author**: Lulu Sevignon
