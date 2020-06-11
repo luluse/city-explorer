@@ -102,33 +102,23 @@ Actual time needed to complete: 1 hour
 
 #### Feature 2. Server: As a user, I want the application to perform quickly so that I can search for locations frequently and reliably.
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 2 hours
 
-Start time: 
+Start time: 3:00
 
-Finish time: 
+Finish time: 6:00
 
-Actual time needed to complete: 
+Actual time needed to complete: 3 hours
 
 #### Feature 3. Deploy: As a user, I want the application to perform quickly so that I can search for locations frequently and reliably.
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 30 min 
 
-Start time: 
+Start time: 6:00
 
-Finish time: 
+Finish time: 6:20
 
-Actual time needed to complete: 
-
-<!-- #### Feature 4. 
-
-Estimate of time needed to complete: 
-
-Start time: 
-
-Finish time: 
-
-Actual time needed to complete:  -->
+Actual time needed to complete: 20 min
 
 
 # Project Name
@@ -160,4 +150,7 @@ JavaScript
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application.-->
 I worked with Courtney and Marta on Lab 06
+
 I worked with Chirs and Michael on Lab 07
+
+I worked with Marta, Chris and Alex on Lab 08
