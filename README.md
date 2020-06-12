@@ -121,6 +121,40 @@ Finish time: 6:20
 Actual time needed to complete: 20 min
 
 
+## Lab09
+
+![Whiteboard lab09](img/lab09.png)
+
+#### Feature 1. Movies: As a user, I want to request information about movies that are connected to the area, so that users can learn more about the location.
+
+Estimate of time needed to complete: 1:30
+
+Start time: 1:30pm
+
+Finish time: 3:00
+
+Actual time needed to complete: 1:30
+
+#### Feature 2. Yelp: As a user, I want to request information about restaurants in the area so that users can view recommendations based on the search query.
+Estimate of time needed to complete: 2hours
+
+Start time: 3:00
+
+Finish time: 4:45
+
+Actual time needed to complete: 1:45
+
+#### Feature 3. As a user, I want to be able to click a button to view more restaurant options so that I don't get overwhelmed with all of my options displayed at once
+
+Estimate of time needed to complete: 30min
+
+Start time: 4:45
+
+Finish time: 5:00
+
+Actual time needed to complete: 15 min
+
+
 # Project Name
 
 **Author**: Lulu Sevignon

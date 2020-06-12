@@ -114,9 +114,81 @@ function Trails(obj){
   this.conditions = obj.conditionDetails;
   this.condition_date = obj.conditionDate.slice(0,10);
   this.condition_time = obj.conditionDate.slice(11);
-
-
 }
+
+// movies data
+
+app.get('/movies', (request,response) =>{
+  try{
+    const movieQuery = request.query.search_query;
+    const url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIES_KEY_API}&language=en-US&page=1&query=${movieQuery}&limit=20`;
+
+    superagent.get(url).then(resultsFromSuperAgent =>{
+      const data = resultsFromSuperAgent.body.results;
+      console.log(data);
+      const moviesResults = data.map(value => new Movies(value));
+      console.log(moviesResults);
+      response.status(200).send(moviesResults);
+    })
+  } catch(err) {
+    console.log('ERROR', err);
+    response.status(500).send('sorry, there is an error on movies');
+  }
+})
+
+function Movies(obj){
+  this.title = obj.title;
+  this.overview = obj.overview;
+  this.average_votes = obj.vote_average;
+  this.total_votes = obj.vote_count;
+  this.image_url = `https://image.tmdb.org/t/p/w500${obj.poster_path}`;
+  this.popularity = obj.popularity;
+  this.released_on = obj.release_date;
+}
+
+// yelp data
+
+app.get('/yelp', (request,response) =>{
+  try{
+    console.log('request query', request.query);
+    const url = 'https://api.yelp.com/v3/businesses/search';
+
+    const yelpQuery = request.query.page;
+    const numPerPage = 5;
+    const start = (yelpQuery -1) * numPerPage;
+
+
+    const queryParams = {
+      latitude: request.query.latitude,
+      longitude: request.query.longitude,
+      start: start,
+      limit: numPerPage
+    }
+
+    superagent.get(url)
+      .set('Authorization', `Bearer ${process.env.RESTAURANTS_KEY_API}`)
+      .query(queryParams)
+      .then(resultsFromSuperAgent =>{
+        const data = resultsFromSuperAgent.body.businesses;
+        console.log(data);
+        const yelpResults = data.map(value => new Yelp(value));
+        console.log(yelpResults);
+        response.status(200).send(yelpResults);
+      })
+  } catch(err) {
+    console.log('ERROR', err);
+    response.status(500).send('sorry, there is an error on restaurants');
+  }
+})
+
+function Yelp(obj){
+  this.name = obj.name;
+  this.image_url = obj.image_url;
+  this.price = obj.price;
+  this.rating = obj.rating;
+  this.url = obj.url;
+}
+
 
 app.get('*', (request, response) =>{
   response.status(404).send('sorry, this route does not exist');
